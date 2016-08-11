@@ -1,0 +1,17 @@
+# default plugins
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+# [[plugins]]
+# repo = 'Shougo/vimshell'
+# rev = '3787e5'
+
+# custom plugins
+[[plugins]]
+repo = 'itchyny/lightline.vim'
