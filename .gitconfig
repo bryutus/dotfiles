@@ -1,0 +1,27 @@
+[user]
+    nama = Ryu Segawa
+    email = bryutus@gmail.com
+[core]
+    editor = vim -c \"set fenc=utf-8\"
+    precomposeunicode = true
+    quotepath = false
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[push]
+    default = simple
+[pager]
+    log = diff-highlight | less
+    show = diff-highlight | less
+    diff = diff-highlight | less
+[diff]
+    compactionHeuristic = true
+[alias]
+    st = status
+    co = checkout
+    branches = branch -a
+    stashes = stash list
+    graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
+    start = commit --allow-empty -m "Initial commit"
+
