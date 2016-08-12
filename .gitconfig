@@ -23,5 +23,4 @@
     branches = branch -a
     stashes = stash list
     graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
-    start = commit --allow-empty -m "Initial commit"
-
+    start = commit --allow-empty -m 'Initial commit'
