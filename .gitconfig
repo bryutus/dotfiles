@@ -1,5 +1,5 @@
 [user]
-    nama = Ryu Segawa
+    name = Ryu Segawa
     email = bryutus@gmail.com
 [core]
     editor = vim -c \"set fenc=utf-8\"
