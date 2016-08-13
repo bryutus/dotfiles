@@ -7,7 +7,7 @@ autoload -Uz colors
 colors
 
 # プロンプト
-PROMPT="[%n@%m] ${fg[red]}%d${reset_color}
+PROMPT="[%n@%m]
 $ "
 RPROMPT=$'`branch-status-check` %~'
 setopt prompt_subst
