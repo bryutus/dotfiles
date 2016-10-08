@@ -5,3 +5,16 @@ cnoremap tree NERDTreeToggle
 
 " vim-trailing-whitespace
 autocmd BufWritePre * :FixWhitespace
+
+" nerdtree-git-plugin
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "m",
+    \ "Staged"    : "s",
+    \ "Untracked" : "?",
+    \ "Renamed"   : "r",
+    \ "Unmerged"  : "~",
+    \ "Deleted"   : "d",
+    \ "Dirty"     : "*",
+    \ "Clean"     : "c",
+    \ "Unknown"   : "?"
+    \ }
