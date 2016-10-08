@@ -18,3 +18,5 @@ source ~/.dotfiles/.vim/setting/.vimrc.search
 source ~/.dotfiles/.vim/setting/.vimrc.environment
 " コマンドライン
 source ~/.dotfiles/.vim/setting/.vimrc.cli
+" プラグインの設定
+source ~/.dotfiles/.vim/setting/.vimrc.plugins
