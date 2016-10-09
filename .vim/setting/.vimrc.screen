@@ -12,3 +12,8 @@ set helpheight=999    " ヘルプを全画面で表示
 set list    " 不可視文字を表示
 set listchars=tab:▸\ ,eol:↲    " 不可視文字の表示記号を指定
 set showmatch " 括弧の対応関係を表示
+
+hi Pmenu ctermbg=darkcyan ctermfg=white
+hi PmenuSel ctermbg=brown ctermfg=black
+hi PmenuSbar ctermbg=black
+hi PmenuThumb cterm=reverse ctermfg=gray
