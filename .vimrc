@@ -1,5 +1,7 @@
 " dein.vim
 source ~/.dotfiles/.vim/setting/.vimrc.dein
+" 動作環境との統合
+source ~/.dotfiles/.vim/setting/.vimrc.environment
 " 画面表示
 source ~/.dotfiles/.vim/setting/.vimrc.screen
 " プログラム
@@ -14,8 +16,6 @@ source ~/.dotfiles/.vim/setting/.vimrc.tab
 source ~/.dotfiles/.vim/setting/.vimrc.file
 " 検索/置換
 source ~/.dotfiles/.vim/setting/.vimrc.search
-" 動作環境との統合
-source ~/.dotfiles/.vim/setting/.vimrc.environment
 " コマンドライン
 source ~/.dotfiles/.vim/setting/.vimrc.cli
 " プラグインの設定
