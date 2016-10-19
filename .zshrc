@@ -56,10 +56,10 @@ setopt auto_pushd
 setopt pushd_ignore_dups
 
 # alias
-alias ls='ls -G -F'
+alias ls='ls -GF'
 alias la='ls -a'
-alias ll='ls -l'
-alias lla='ls -la'
+alias ll='ls -lh'
+alias lla='ls -lah'
 
 alias rm='rm -i'
 alias cp='cp -i'
