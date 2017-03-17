@@ -1,5 +1,5 @@
-.vim/plugin/.vim/.netrwhist
-.vim/plugin/.vim/dein/
+# vim-dein packages
+.vim/dein/
 
 # OSX
 *.DS_Store
