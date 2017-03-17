@@ -2,6 +2,10 @@
 export LANG=ja_JP.UTF-8
 export KCODE=u # KCODEにUTF-8を設定
 
+# GOPATH
+export GOPATH=$HOME/dev
+export PATH=$PATH:$GOPATH/bin
+
 # 色
 autoload -Uz colors
 colors
