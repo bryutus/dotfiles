@@ -12,10 +12,6 @@
     branch = auto
 [push]
     default = simple
-[pager]
-    log = diff-highlight | less
-    show = diff-highlight | less
-    diff = diff-highlight | less
 [diff]
     compactionHeuristic = true
 [alias]
@@ -30,4 +26,4 @@
     smudge = git-lfs smudge %f
     required = true
 [ghq]
-    root = ~/Program/golang/dev/src
+    root = ~/dev/src
