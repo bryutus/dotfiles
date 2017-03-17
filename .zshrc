@@ -1,6 +1,7 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export KCODE=u # KCODEにUTF-8を設定
+export PATH=/usr/local/bin:$PATH
 
 # GOPATH
 export GOPATH=$HOME/dev
