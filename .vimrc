@@ -1,22 +1,4 @@
-" dein.vim
-source ~/.dotfiles/.vim/setting/.vimrc.dein
-" 動作環境との統合
-source ~/.dotfiles/.vim/setting/.vimrc.environment
-" 画面表示
-source ~/.dotfiles/.vim/setting/.vimrc.screen
-" プログラム
-source ~/.dotfiles/.vim/setting/.vimrc.program
-" カーソル移動
-source ~/.dotfiles/.vim/setting/.vimrc.cursor
-" インデント
-source ~/.dotfiles/.vim/setting/.vimrc.indent
-" タブ
-source ~/.dotfiles/.vim/setting/.vimrc.tab
-" ファイル処理
-source ~/.dotfiles/.vim/setting/.vimrc.file
-" 検索/置換
-source ~/.dotfiles/.vim/setting/.vimrc.search
-" コマンドライン
-source ~/.dotfiles/.vim/setting/.vimrc.cli
-" プラグインの設定
-source ~/.dotfiles/.vim/setting/.vimrc.plugins
+" 設定ファイル読み込み
+set runtimepath+=~/.dotfiles/.vim/
+runtime! setting/*.vim
+
