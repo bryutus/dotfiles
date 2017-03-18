@@ -33,3 +33,7 @@ repo = 'fatih/vim-go'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'kchmck/vim-coffee-script'
+
