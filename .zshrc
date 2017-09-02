@@ -60,6 +60,8 @@ setopt auto_pushd
 # 重複したディレクトリを追加しない
 setopt pushd_ignore_dups
 
+setopt nonomatch
+
 # alias
 alias ls='ls -GF'
 alias la='ls -a'
