@@ -14,6 +14,7 @@
     default = simple
 [diff]
     compactionHeuristic = true
+    tool = vimdiff
 [alias]
     st = status
     co = checkout
