@@ -74,7 +74,7 @@ alias mv='mv -i'
 
 alias vi='vim'
 
-alias history='history -Di'
+alias history='history -Di -E 1'
 
 
 # methods for RPROMPT
