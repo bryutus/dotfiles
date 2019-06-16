@@ -8,10 +8,6 @@ repo = 'Shougo/neosnippet.vim'
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
-# [[plugins]]
-# repo = 'Shougo/vimshell'
-# rev = '3787e5'
-
 # custom plugins
 [[plugins]]
 repo = 'itchyny/lightline.vim'
@@ -33,7 +29,3 @@ repo = 'fatih/vim-go'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
-
-[[plugins]]
-repo = 'kchmck/vim-coffee-script'
-
