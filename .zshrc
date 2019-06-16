@@ -39,6 +39,7 @@ setopt auto_cd
 setopt auto_pushd
 setopt pushd_ignore_dups
 
+# alias
 alias ls='ls -GF'
 alias la='ls -a'
 alias ll='ls -lh'
