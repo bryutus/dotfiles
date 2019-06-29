@@ -10,8 +10,7 @@ export PATH=$PATH:$GOPATH/bin
 autoload -Uz colors
 colors
 
-PROMPT="[%n@%m]
-$ "
+PROMPT="%11F%n%f:%10F%m%f \$ "
 RPROMPT=$'`branch-status-check` %~'
 
 setopt prompt_subst
