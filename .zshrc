@@ -6,6 +6,7 @@ export PATH=/usr/local/bin:$PATH
 # GOPATH
 export GOPATH=$HOME/dev
 export PATH=$PATH:$GOPATH/bin
+export GO111MODULE=on
 
 autoload -Uz colors
 colors
@@ -50,6 +51,8 @@ alias mv='mv -i'
 
 alias vi='vim'
 alias history='history -Di -E 1'
+
+alias dc='docker-compose'
 
 bindkey '^]' peco-src
 
